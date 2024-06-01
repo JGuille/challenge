@@ -127,7 +127,7 @@ def main():
     # Parameters for the initial request
     params = {
         "sort": "updated",
-        "per_page": 1,
+        "per_page": 50,
         "direction": "desc",
         "state": "all",  # To include open and closed pull requests
         "page": 1
